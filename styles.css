@@ -1,0 +1,33 @@
+html {
+    background-color: rgb(82, 80, 80);
+    height: 100%;
+}
+.heading{
+    text-align: center;
+    color: rgb(219, 73, 73);
+}
+.buttons{
+    text-align: center;
+    padding: 1em;
+    
+}
+.buttons .button{
+    border-radius: 30%;
+}
+
+.buttons .button:hover {
+    background-color: rgb(219, 73, 73);
+}
+
+.container {
+    background-color: white;
+    display: grid;
+    width: 40%;
+    height: 450px;
+    border:rgb(219, 73, 73);
+    margin: auto;
+}
+
+.pixel {
+    display: flex;
+}
